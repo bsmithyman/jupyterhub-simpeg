@@ -13,7 +13,7 @@ done
 # ------------------------------------------------------------------------
 # Preconfigure IPython Directories
 
-ipython2 << END
+ipython2 << END 2>&1 > /dev/null
 print('Writing IPython config.')
 exit()
 END
