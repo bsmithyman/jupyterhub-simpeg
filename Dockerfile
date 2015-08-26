@@ -15,4 +15,6 @@ RUN /usr/local/bin/pip install -r /requirements.txt
 ADD skel/jupyter /etc/skel/.jupyter
 ADD skel/ipython /etc/skel/.ipython
 
+ADD scripts/* /usr/local/bin/
+
 CMD ["/srv/jupyterhub/startup.sh"]
