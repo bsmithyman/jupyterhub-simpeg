@@ -11,6 +11,8 @@ ADD requirements.txt /requirements.txt
 RUN /usr/local/bin/pip3 install -r /requirements3.txt
 RUN /usr/local/bin/pip install -r /requirements.txt
 
-ADD skel/* /etc/skel/.jupyter
+ADD skel/pythonpath /etc/skel/pythonpath
+ADD skel/jupyter /etc/skel/.jupyter
+ADD skel/ipython /etc/skel/.ipython
 
 CMD ["/srv/jupyterhub/startup.sh"]
