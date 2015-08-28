@@ -2,4 +2,5 @@ virtualenv
 ipyparallel
 DistArray
 networkx
+hickle
 git+https://github.com/bsmithyman/pygeo.git
