@@ -2,7 +2,7 @@
 FROM bsmithyman/jupyterhub-ldap:latest
 MAINTAINER Brendan Smithyman <brendan@bitsmithy.net>
 
-RUN apt-get -y install libopenmpi-dev openmpi-bin gfortran screen
+RUN apt-get -y install libopenmpi-dev openmpi-bin gfortran screen vim
 RUN apt-get -y install cython python-numpy python-scipy python-matplotlib python-mpi4py
 RUN apt-get -y install cython3 python3-numpy python3-scipy python3-matplotlib python3-mpi4py
 
