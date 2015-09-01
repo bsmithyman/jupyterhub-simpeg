@@ -9,5 +9,10 @@ cd simpeg
 python setup.py build_ext --inplace
 
 cd $PROJECTS
+git clone https://github.com/bsmithyman/pymatsolver.git
+cd pymatsolver/pymatsolver/Mumps
+make
+
+cd $PROJECTS
 git clone https://github.com/bsmithyman/zephyr.git -b simpeg-integration
 
