@@ -5,3 +5,4 @@ networkx
 ndg-httpsclient
 hickle
 git+https://github.com/bsmithyman/pygeo.git
+git+https://github.com/bsmithyman/h5py.git
