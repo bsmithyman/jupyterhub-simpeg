@@ -2,5 +2,6 @@ virtualenv
 ipyparallel
 DistArray
 networkx
+ndg-httpsclient
 hickle
 git+https://github.com/bsmithyman/pygeo.git
