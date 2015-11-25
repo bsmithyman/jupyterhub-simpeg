@@ -12,7 +12,7 @@ ADD requirements3.txt /requirements3.txt
 RUN /usr/local/bin/pip3 install -r /requirements3.txt
 
 ADD requirements.txt /requirements.txt
-RUN /usr/local/bin/pip install -r /requirements.txt
+RUN /usr/local/bin/pip2 install -r /requirements.txt
 
 ADD skel/jupyter /etc/skel/.jupyter
 ADD skel/ipython /etc/skel/.ipython
