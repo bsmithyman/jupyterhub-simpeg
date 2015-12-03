@@ -3,4 +3,5 @@ ipyparallel
 DistArray
 networkx
 hickle
+sphinxcontrib-napoleon
 git+https://github.com/bsmithyman/pygeo.git
