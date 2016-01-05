@@ -5,3 +5,4 @@ networkx
 hickle
 sphinxcontrib-napoleon
 git+https://github.com/bsmithyman/pygeo.git
+git+https://github.com/rowanc1/pymatsolver.git
